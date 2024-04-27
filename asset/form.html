@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+</head>
+
+  <style>
+    *{
+ text-align: center;  item-align: center;     margin: 0;
+  
+    padding: 0;
+      box-sizing: border-box;
+    }
+    *:focus{
+      outline: none;
+    }
+    body{
+  text-align: center; 
+   background-color: lightseagreen;
+      width: 100%;
+      min-height: 100vh;
+  
+    heiht: auto;
+      display: flex;
+      justify-content: center;
+      align-items:
+
+
+ center;
+      font-family: sans-serif;
+    }
+ 
+    .form{
+      width: 458px;
+      height: auto;
+      color: red;
+      
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+     
+    }
+    .heading{
+      text-transform: capitalize;
+   
+   text-align: center;
+      font-size: 80px;
+      font-weight: 300;
+      margin-butttom: 50px;
+ 
+   }
+    input, .submit-btn{
+      width:80%;
+      height: 35px;
+      dispay: block;
+      margin: 17px auto;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: red;
+      padding: 12px;
+        transition: 0.5s;
+  
+      text-transform: capitalize;
+    
+    }
+    input::placeholder{
+      color: red;
+      
+    }
+    input:focus, .submit-btn:hover{
+      background: red;
+      color: black;
+    }
+   input:focus::placeholder{
+     color: black;
+   }
+    .submit-btn{
+        width: auto;
+      padding: 0 20px;
+      cursor: pointer;
+
+      margin: 50px auto 0;
+        
+      
+    }
+    .link{
+    text-align: center;
+     
+ text-transform: capitalize;
+      text-decoration: none;
+      color: rgba(255, 255,
+ 255, 0.2);
+      display: block;
+      margin: 30px auto;
+    }
+    .link:hover{
+     
+ color: red;
+    }
+   
+ .alert-box{
+      position: absolute;
+      top: 5%;
+      left: 50%;
+    transform:
+ translate(-50%);
+      width: auto;
+      min-wiidth: 150px;
+      max-width: 90%;
+      height: auto;
+      padding: 10px;
+      text-transform: capitalize;
+      background: rgb(255, 37, 37);
+      border-buttom-left-radius: 10px;
+     
+ border-buttom-right-radius: 10px;
+      color: white;
+      font-family: roboto;
+      text-align: center;
+      transition: 1s;
+    }
+  </style>
+<body>
+ <img src="C:\Users\USER\Desktop\CODEX\image001.gif" width="60px" height="50px"><div class="container"><div class="alert-box">
+     <h4 class="alert">msg</h4>
+  </div>
+  <div class="form">
+    <h1 class="heading">Login into RAY & CO COMPANY</h1>
+    <input type="email" placeholder="email" autocomplete="off" class="email" required>
+     <input type="password" placeholder="password" autocomplete="off" class="password" required>
+  <br><input type="country" placeholder="nationality" autocomplete="off" class="country" required>
+<br>  <input class="submit-btn" type="submit">Log in</button>
+    <a href="#" class="link">dont have an account? Register</a>
+  </div>
+</div>  
+</body>
+</html>

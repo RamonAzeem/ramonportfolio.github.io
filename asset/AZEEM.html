@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" src="https://github.com/twbs/bootstrap/blob/v5.3.3/site/content/docs/5.3/extend/icons.md">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>my portfolio</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: black;
+		font-family: Roboto, Arial;
+
+	}
+*{
+	padding: 0;
+	margin: 0;
+
+
+
+}
+.header{
+
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+
+top: 0;
+left: 0;
+right: 0;
+
+
+z-index: 100;
+
+
+padding-left: 30px;
+margin: auto;
+padding-top: 10px;
+
+}
+.right-section{
+	
+	
+	color: white;
+	padding-top: 19px;
+
+
+}
+.header .middle-section ul{
+	list-style: none;
+
+	
+}
+.header .middle-section ul li{
+	
+	display: inline;
+	margin-right: 55px;
+	color: white;
+}
+.header .middle-section ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+.header .middle-section ul li a:hover{
+	color: purple;
+}
+.header .middle-section{
+	padding-left: 50px;
+	vertical-align: top;
+	
+	
+
+}
+.left-section button{
+	background: linear-gradient(purple, orange);
+	color: white;
+	padding: 14px 14px 14px 14px;
+	margin-right: 90px;
+	border-radius: 30px;
+	transition: ease-in-out 2s;
+	cursor: pointer;
+	border: none;
+}
+.left-section{
+	
+	padding-top: 10px;
+
+}
+.left-section button a{
+	text-decoration: none;
+	color: white;
+}
+.left-section button:hover{
+	transform: scale(1.12);
+	transition: 1s;
+}
+
+.main{
+	text-align: center;
+	color: white;
+	height: 100vh;
+	margin-top: 70px;
+	
+	margin-bottom: 20px;
+
+}
+.mains{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.main img{
+	margin-top: 50px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	
+	text-align: center;
+}
+.name{
+	margin-top: 20px;
+	
+	width: 550px;
+	text-align: center;
+	
+	font-size: 40px;
+}
+.name span{
+	color: rgb(230, 24, 205);
+}
+ .stat{
+	
+	
+	margin-top: 10px;
+	
+	opacity: 0.6;
+	text-align: center;
+}
+.button-1{
+	background: linear-gradient(purple, orange);
+	color: white;
+	padding: 14px 14px 14px 14px;
+	
+	border-radius: 30px;
+	transition: 1s;
+	cursor: pointer;
+transition: 1s;
+
+margin-top: 25px;
+}
+.button-1:hover{
+	
+	border: 2px solid white;
+	transition: 1s;
+}
+.button-2{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 14px 20px 14px 20px;
+	
+	border-radius: 30px;
+	transition: 1s;
+	cursor: pointer;
+	margin-top: 25px;
+	margin-left: 50px;
+
+
+}
+.button-2:hover{
+border: 2px solid rgb(230, 24, 205);
+transition: 1s;	
+}
+.about-me{
+	
+	color: white;
+	height: 100vh;
+	margin-left: 10%;
+	
+	
+}
+.about-me .titl{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.about-me .images{
+	height: 300px;
+	width: 300px;
+	border-radius: 15px;
+
+
+}
+.about-me .title{
+	width: 520px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	display: inline-block;
+	line-height: 23px;
+	opacity: 0.6;
+}
+.about-me .stats{
+width: 600px;
+	font-size: 16px;
+	line-height: 19px;
+	opacity: 0.6;
+}
+.abt-me{
+	display: flex;
+	margin-top: 110px;
+	margin-left: 100px;
+
+}
+.second{
+	margin-left: 30px;
+	margin-top: 10px;
+	display: grid;
+
+
+}
+.span-1{
+	border: 2px solid black;
+	width: 100px;
+	padding: 0.04px 200px 0.04px 200px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+
+}
+.span-2{
+	border: 2px solid black;
+	width: 100px;
+	padding: 0.04px 280px 0.04px 280px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+}
+.span-3{
+border: 2px solid black;
+	width: 100px;
+	padding: 0.04px 250px 0.04px 250px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+}
+.foot{
+	display: flex;
+	margin-left: 50px;
+	margin-top: 50px;
+	
+	cursor: pointer;
+}
+.foot:hover{
+transform: scale(1.12);
+}
+.foo{
+	border-right: 2px solid white;
+	padding-right: 100px;
+	margin-left: 30px;
+	margin-right: 130px;
+	cursor: pointer;
+}
+.foo p{
+	margin-left: 30px;
+	
+}
+.pass{
+	margin-bottom: 20px;
+	margin-top: 17px;
+}
+.pre{
+	color: purple;
+	margin-bottom: 10px;
+}
+.dert{
+	transition: ease-in-out 0.9s;
+	cursor: pointer;
+}
+.dert:hover{
+transform: scale(1.12);
+transition: 1s;
+}
+.portfolio{
+	margin-top: 100px;
+	height: 100vh;
+	text-align: center;
+	
+}
+.imgs{
+	margin-top: 100px;
+	height: 250px;
+	width: 430px;
+	border-radius: 20px;
+	transition: 1s;
+	cursor: pointer;
+}
+.imgs:hover{
+	transform: rotate(-10deg);
+	border: 5px solid red;
+}
+.flex{
+
+	width: 70%;
+	display: flex;
+	flex-basis: 10px;
+	flex-direction: column;
+	margin-left: 220px;
+	margin-top: 30px;
+}
+.flex-a{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flex-b{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.titl{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 100px;
+}
+.contact{
+	color: white;
+	height: 100vh;
+	margin-top: 100px;
+	
+}
+.paragr{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	
+}
+.con{
+	margin-top: 60px;
+	
+	
+}
+.con h3{
+	font-size: 30px;
+	color: purple;
+}
+.con p{
+	margin-top: 20px;
+	width: 480px;
+	line-height: 25px;
+}
+label{
+	display: block;
+	margin-bottom: 10px;
+	color: purple;
+}
+.input{
+	margin-bottom: 10px;
+	background: #32323C;
+	height: 30px;
+	width: 500px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding-left: 20px;
+	border-radius: 5px;
+
+}
+textarea{
+	height: 200px;
+	background: #32323C;
+	width: 500px;
+	border: none;
+	display: block;
+	margin-bottom: 10px;
+	color: white;
+	padding-left: 15px;
+	padding-top: 3px;
+	font-size: 20px;
+	font-family: outfit;
+	border-radius: 5px;
+
+}
+.cont{
+
+	display: flex;
+	justify-content: center;
+}
+.co{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.input::placeholder{
+	font-size: 17px;
+}
+.input:focus::placeholder{
+	color: white;
+}
+.input:focus{
+	border: 1px solid orange;
+	
+	color: white;
+}
+#button{
+	border: none;
+	color: white;
+	border-radius: 50px;
+	background: linear-gradient(264deg, yellow -5.09%, purple 106.28%);
+	font-size: 22px;
+	margin-bottom: 50px;
+	cursor: pointer;
+
+	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	transition: 1s;
+	width: 150px;
+}
+#button:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.img-contact img{
+height: 40px;
+width: 40px;
+background-color: none;
+margin-right: 10px;
+}
+.img-contact{
+	
+	margin-top: 20px;
+	align-items: center;
+
+}
+.footer{
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+	margin-right: 70px;
+	margin-bottom: 20px;
+}
+.footer-left{
+	display: flex;
+	gap: 30px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	background-color: #32323b;
+	padding-right: 80px;
+	margin-right: -30px;
+	margin-left: 320px;
+
+}
+.footer-left:hover{
+	border: 2px solid white;
+}
+.footer-left input{
+	outline: none;
+	border: none;
+	background: transparent;
+	color: #a0a0a0;
+	font-family: outfit;
+	font-size: 18px;
+}
+.sub{
+	margin-left: 50px;
+	font-size: 20px;
+	border-radius: 50px;
+	background: linear-gradient(264deg, yellow -5.04%, purple 106.28%);
+	padding: 12px 30px;
+	cursor: pointer;
+}
+.submit{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.footer-bottom{
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.right{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 50px;
+	margin-right: 49px;
+	
+}
+.right p{
+	width: 300px;
+}
+.sed p{
+	width: 600px;
+}
+.right p{
+	width: 30px;
+}
+.harm{
+	background: white;
+}
+.closing{
+	display: none;
+}
+.but{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.get{
+	margin-top: 100px;
+}
+.lateef{
+	display: flex;
+	justify-content: space-between;
+}
+@media(max-width: 617.27px){
+	.header{
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+
+
+font-size: 13px;
+
+
+}
+	.right-section{
+	
+	
+	color: white;
+
+
+
+}
+
+
+.header .middle-section ul{
+	list-style: none;
+
+	padding-top: 30px;
+}
+.header .middle-section ul li{
+	
+	display: inline;
+	margin-right: 8px;
+	color: white;
+	
+}
+.header .middle-section ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+.header .middle-section ul li a:hover{
+	color: purple;
+}
+.header .middle-section{
+	padding-left: 50px;
+	vertical-align: top;
+	margin-right: 50px;
+	
+	
+	
+
+}
+.main{
+	text-align: center;
+	color: white;
+	height: 100vh;
+	margin-top: 110px;
+	
+	
+
+}
+.mains{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.main img{
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	
+	text-align: center;
+}
+.name{
+	margin-top: 20px;
+	
+	width: 350px;
+	text-align: center;
+	
+	font-size: 35px;
+}
+.name span{
+	color: rgb(230, 24, 205);
+}
+ .stat{
+	
+	
+	margin-top: 10px;
+	
+	opacity: 0.6;
+	text-align: center;
+}
+.button-1{
+	background: linear-gradient(purple, orange);
+	color: white;
+	padding: 14px 14px 14px 14px;
+	
+	border-radius: 30px;
+	transition: 1s;
+	cursor: pointer;
+transition: 1s;
+
+margin-top: 25px;
+}
+.button-1:hover{
+	
+	border: 2px solid white;
+	transition: 1s;
+}
+.button-2{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 14px 20px 14px 20px;
+	
+	border-radius: 30px;
+	transition: 1s;
+	cursor: pointer;
+	margin-top: 25px;
+	margin-left: 50px;
+
+
+}
+.button-2:hover{
+border: 2px solid rgb(230, 24, 205);
+transition: 1s;	
+}
+.but{
+	margin-top: 70px;
+}
+
+.about-me{
+	
+	color: white;
+	height: 100vh;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+.about-me .titl{
+	font-size: 30px;
+	margin-top: 1px;
+	font-weight: bold;
+}
+.about-me .images{
+	height: 200px;
+	width: 200px;
+	border-radius: 15px;
+	
+	margin-right: 120px;
+
+
+}
+.about-me .title{
+	width: 400px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	display: inline-block;
+	line-height: 23px;
+	opacity: 0.6;
+	text-align: left;
+	margin-right: 165px;
+}
+.about-me .stats{
+width: 400px;
+	font-size: 14px;
+	line-height: 23px;
+	opacity: 0.6;
+	text-align: left;
+}
+.abt-me{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+
+
+}
+.second{
+	
+	
+	display: grid;
+	font-size: 13px;
+
+
+}
+.span-1{
+	border: 2px solid black;
+
+	padding: 0.04px 150px 0.04px 150px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+
+}
+.span-2{
+	border: 2px solid black;
+	
+	padding: 0.04px 180px 0.04px 180px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+}
+.span-3{
+border: 2px solid black;
+	
+	padding: 0.04px 150px 0.04px 150px;
+	border-radius: 20px;
+	height: 2px;
+	background: linear-gradient(purple, orange);
+}
+.foot{
+	display: flex;
+	margin-left: 0px;
+
+	font-size: 10px;
+	text-align: left;
+	
+}
+.foots{
+	
+	padding-right: 50px;
+	margin-left: 20px;
+	margin-right: 10px;
+	text-align: left;
+
+}
+.foo{
+	border-right: 2px solid white;
+	padding-right: 50px;
+	margin-left: 1px;
+	margin-right: 10px;
+	text-align: left;
+	border-left: 2px solid white;
+}
+.foo p{
+	margin-left: 30px;
+	
+}
+.pass{
+	margin-bottom: 20px;
+	margin-top: 17px;
+}
+.pre{
+	color: purple;
+	margin-bottom: 10px;
+}
+.dert{
+	transition: ease-in-out 0.9s;
+	cursor: pointer;
+}
+.dert:hover{
+transform: scale(1.12);
+transition: 1s;
+}
+
+.portfolio{
+	margin-top: 100px;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+.imgs{
+	margin-top: 30px;
+	height: 100px;
+	width: 250px;
+	border-radius: 20px;
+	transition: 1s;
+	cursor: pointer;
+}
+.imgs:hover{
+	transform: rotate(-10deg);
+	border: 5px solid red;
+}
+.flex{
+
+	
+	display: flex;
+	flex-direction: column;
+justify-content: center;
+align-items: center;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.flex-a{
+	display: flex;
+	flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.flex-b{
+	display: flex;
+	flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.titl{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 190px;
+}
+.contact{
+	color: white;
+	height: 100vh;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	
+}
+.paragr{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+
+	
+}
+.con{
+	
+margin-top: 30px;
+	margin-left: 20px;
+	
+}
+.con h3{
+	font-size: 20px;
+	color: purple;
+}
+.con p{
+	margin-top: 10px;
+	width: 370px;
+	line-height: 25px;
+	font-size: 15px;
+}
+label{
+	display: block;
+	margin-bottom: 10px;
+	color: purple;
+}
+.input{
+	margin-bottom: 10px;
+	background: #32323C;
+	height: 30px;
+	width: 350px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding-left: 20px;
+	border-radius: 5px;
+
+}
+textarea{
+	height: 150px;
+	background: #32323C;
+	width: 350px;
+	border: none;
+	display: block;
+	margin-bottom: 10px;
+	color: white;
+	padding-left: 15px;
+	padding-top: 3px;
+	font-size: 20px;
+	font-family: outfit;
+	border-radius: 5px;
+
+}
+.cont{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.co{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.input::placeholder{
+	font-size: 17px;
+}
+.input:focus::placeholder{
+	color: white;
+}
+.input:focus{
+	border: 1px solid orange;
+	
+	color: white;
+}
+#button{
+	border: none;
+	color: white;
+	border-radius: 50px;
+	background: linear-gradient(264deg, yellow -5.09%, purple 106.28%);
+	font-size: 18px;
+	margin-bottom: 50px;
+	cursor: pointer;
+
+	
+	padding-bottom: 5px 5px 5px 5px;
+	
+	transition: 1s;
+	width: 100px;
+}
+#button:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.img-contact img{
+height: 40px;
+width: 30px;
+background-color: none;
+margin-right: 10px;
+}
+.img-contact{
+	
+	margin-top: 20px;
+	align-items: center;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.img-contact img{
+	display: block;
+}
+.lateef{
+	font-size: 11px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	
+}
+
+	
+
+
+.footer{
+	color: white;
+	margin-left: 0px;
+
+
+	
+}
+.footer-left{
+	display: flex;
+	gap: 30px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	background-color: #32323b;
+	padding-right: 80px;
+	margin-right: -30px;
+	margin-left: 320px;
+
+}
+.footer-left:hover{
+	border: 2px solid white;
+}
+.footer-left input{
+	outline: none;
+	border: none;
+	background: transparent;
+	color: #a0a0a0;
+	font-family: outfit;
+	font-size: 18px;
+}
+.sub{
+	margin-left: 50px;
+	font-size: 20px;
+	border-radius: 50px;
+	background: linear-gradient(264deg, yellow -5.04%, purple 106.28%);
+	padding: 12px 30px;
+	cursor: pointer;
+}
+.submit{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.footer-bottom{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.right{
+	display: flex;
+	gap: 50px;
+	margin-bottom: 50px;
+	margin-right: 49px;
+}
+.harm{
+	background: white;
+}
+.closing{
+	display: none;
+}
+.but{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.get{
+	margin-top: 100px;
+}
+.lateef{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 350px;
+}
+.sedstyle{
+	width: 400px; margin-right: 50px;}
+
+
+}
+
+
+
+
+</style>
+<body>
+<div class="header">
+
+	<div class="right-section">
+		<h3>AZeeM.</h3>
+
+	</div>
+	<div class="middle-section">
+		
+		<ul>
+			
+			
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about-me">About Me</a></li>
+			
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	
+</div>
+<section id="home" class="main">
+	<div class="mains">
+		<div>
+	<img src="aseem.jpg">
+</div>
+<div>
+	<p class="name"><span>I am Ramon Azeem.</span> A frontend developer based in Nigeria.</p>
+	<p class="stat"><b>An alumni of Codingal.</b> </p></div>
+	<div class="but">
+	<a href="#contact"><button class="button-1"> Connect with me</button></a>
+	<a href="Azeem (1).pdf"><button class="button-2">My resume</button></a>
+</div>
+</div>
+</section>
+<section id="about-me" class="about-me">
+	<p class="titl">About Me</p>
+	<div class="abt-me">
+		<div>
+			<img class="images" src="aseem.jpg">
+		</div>
+		<div class="second">
+			<div>
+			<p class="title">I am a frontend developer with over a year in learning in the field. Throughout my career, I would like to collaborate with prestigious organisation, and also contributing to their success and growth.</p>
+			<p class="stats">My passion for frontend developer is not only
+			reflected in my study but also in the enthusiasm
+		and dedication I bring to each project.</p></div>
+		<div>
+			<div class="dert">
+		<p class="pass">HTML & CSS</p><span class="span-1"></span></div>
+		<div class="dert">
+		<p class="pass">JavaScript</p><span class="span-2"></span></div>
+		<div class="dert">
+		<p class="pass">React JS</p><span class="span-3"></span></div>
+	</div>
+		</div>
+	</div>
+	<div class="foot">
+		<div class="foo">
+		<p class="pre">1+</p>
+		<p>Years of Learning</p>
+</div>
+<div class="foots">
+	<p class="pre">30+</p>
+	<p>Project Completed</p>
+</div>
+
+	</div>
+	</section>
+<section id="portfolio" class="portfolio">
+	
+		
+		<h3 class="titl">Portfolio</h3>
+	
+	<div class="flex">
+		<div class="flex-a">
+		<a href="AZEEM.html"><img class="imgs" src="pro.png"></a>
+		<a href="for.html"><img class="imgs" src="images (1).jpg"></a></div>
+		<div class="flex-b"><img class="imgs" src="jr.png">
+		<a href="youtube.html"><img class="imgs" src="Screenshot (93).png"></a></div>
+	</div>
+	
+	
+
+</section>
+	<section id="contact" class="contact">
+		
+		<h3 class="paragr">Get in touch</h3>
+	
+			<div class="cont">
+				<div class="con">
+				<h3>Let's talk</h3>
+				<p>I'm currently available to take on new projects, so feel free to send a message about anything that you want to work on. You can contact anytime</p>
+
+				
+			
+			</div>
+			<div class="test">
+				<div class="co">
+					<form method="Get">
+	<label>Your Name</label>
+	<input class="input" type="text" name="" placeholder="Write your name" required>
+	<label>Your Email</label>
+	<input class="input" type="email" name="" placeholder="write your email" required>
+	<label>Write your message here</label>
+	<textarea type="text" placeholder="write your message....."></textarea>
+	<input onclick="
+	
+	alert(email);
+	
+	" type="submit" name="register" id="button">
+	</form></div><br>
+			
+	<div class="lateef">
+					<div class="img-contact"><img src="download.png" height="40px" width="40px"><br><span>ramonazeem03@gmail.com</span></div>
+					<div class="img-contact"><img src="download (3).png" height="40px" width="40px"><br><span>+2348055163526</span></div>
+					<div class="img-contact"><img src="download (2).png" height="40px" width="40px"><br><span>Ibadan, Nigeria</span></div></div>
+			</div>
+			
+
+	</section>
+
+<div class="footer">
+	<div class="food"  style="text-align: left; width: 350px;">
+	<h3>AZeeM.</h3>
+	<P>I am a frontend developer from Nigeria with years of learning at codingal.
+	</P>
+</div>
+
+	
+</div>
+<hr style="width: 95%; text-align: center; margin-left: 2%;">
+<div class="footer-bottom" style="margin-left: 10px; width: 350px; margin-right: 70px;">
+	
+	<div class="right">
+		<P>
+			Term of Services
+		</P>
+		<P>
+			Privacy Policy
+		</P>
+		<p>Connect with me</p>	</div>
+		<div class="sed">
+			<p>@ 2023 Ramon Azeem. All right reserved</p>
+		</div>
+		
+	</div>
+	<script>
+		var email = "email sent successfully";
+
+	
+</script>
+</body>
+
+</html>
